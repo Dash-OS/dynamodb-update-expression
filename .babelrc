@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "cacheDirectory": true,
+        "useBuiltIns": "usage",
+        "shippedProposals": true,
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ]
+}
